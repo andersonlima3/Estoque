@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffafa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #351b0c;
+    padding: 1em;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 100px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-menu a:hover {
+    color: #ffddee;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2em;
+  }
+  
+  .subtitulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 1em;
+  }
+  
+  .form-produto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  
+  .form-produto input,
+  .form-produto button {
+    padding: 0.8em;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-produto button {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .form-produto button:hover {
+    background-color: #000000;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+  }
+  
+  .portfolio-item {
+    background-color: #f3eded8e;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+  }
+  
+  .product-info {
+    margin: 0.5em 0;
+  }
+  
+  .product-actions button {
+    margin: 0.2em;
+    padding: 0.4em 0.8em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  #comoFunciona {
+    background-color: #f3eded8e;
+    padding: 2em;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+  
+  .step {
+    max-width: 250px;
+  }
+  
+  .step-icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  

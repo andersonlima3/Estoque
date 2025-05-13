@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verbena Móveis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="img/logo1.png" alt="Logo Verbena Móveis" class="logo" />
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="#portfolio">Catálogo</a></li>
+        <li><a href="#comoFunciona">Como Funciona</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5521983123007">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section id="portfolio">
+      <h2 class="subtitulo">Controle de Estoque</h2>
+      
+      <form id="addProductForm" class="form-produto">
+        <input type="text" id="productName" placeholder="Nome do produto" required />
+        <input type="text" id="productImage" placeholder="URL da imagem" required />
+        <input type="number" id="productQuantity" placeholder="Quantidade" required />
+        <input type="number" step="0.01" id="productPrice" placeholder="Preço (R$)" required />
+        <button type="submit">Adicionar Produto</button>
+      </form>
+
+      <div id="productsContainer" class="portfolio-grid"></div>
+    </section>
+
+    <section id="comoFunciona">
+      <h2 class="subtitulo">Como funciona?</h2>
+      <div class="steps-container">
+        <div class="step">
+          <img src="img/boneca.png" alt="Escolher móvel" class="step-icon" />
+          <h3>Escolha o móvel</h3>
+          <p>Escolha o móvel que atenda seu gosto e necessidade!</p>
+        </div>
+        <div class="step">
+          <img src="img/caixa.png" alt="Fechamento" class="step-icon" />
+          <h3>Fechamento do pedido</h3>
+          <p>Pedido confirmado com 50% de sinal do valor total.</p>
+        </div>
+        <div class="step">
+          <img src="img/carro.png" alt="Entrega" class="step-icon" />
+          <h3>Entrega</h3>
+          <p>Marcamos a data ideal para a entrega no seu endereço.</p>
+        </div>
+        <div class="step">
+          <img src="img/calendario.png" alt="Garantia" class="step-icon" />
+          <h3>Garantia</h3>
+          <p>3 meses de garantia para maior tranquilidade.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Verbena Móveis | <a href="https://www.instagram.com/verbena_moveis/">Instagram</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
